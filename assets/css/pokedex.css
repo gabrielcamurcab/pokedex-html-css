@@ -67,6 +67,58 @@
     border-radius: 1rem;
 }
 
+.normal {
+    background-color: #7a7a7a;
+}
+
+.normal .detail .types .type {
+    background-color: #dfdfdf;
+    color: #000;
+    padding: .25rem .5rem;
+    font-size: .825rem;
+    margin: .25rem 0;
+    border-radius: 1rem;
+}
+
+.poison {
+    background-color: #000269;
+}
+
+.poison .detail .types .type {
+    background-color: #5f60c4;
+    color: #ffffff;
+    padding: .25rem .5rem;
+    font-size: .825rem;
+    margin: .25rem 0;
+    border-radius: 1rem;
+}
+
+.electric {
+    background-color: rgb(235, 219, 0);
+}
+
+.electric .detail .types .type {
+    background-color: rgb(255, 247, 139);
+    color: #000;
+    padding: .25rem .5rem;
+    font-size: .825rem;
+    margin: .25rem 0;
+    border-radius: 1rem;
+}
+
+.ground {
+    background-color: rgb(32, 30, 0);
+}
+
+.ground .detail .types .type {
+    background-color: rgb(90, 89, 74);
+    color: #ffffff;
+    padding: .25rem .5rem;
+    font-size: .825rem;
+    margin: .25rem 0;
+    border-radius: 1rem;
+}
+
 .pokemon .number {
     color: #000;
     opacity: .3;
@@ -96,6 +148,25 @@
     max-width: 100%;
     height: 70px;
     align-self: self-end;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .825rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
 }
 
 @media screen and (min-width: 380px) {
